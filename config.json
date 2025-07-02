@@ -1,0 +1,24 @@
+{
+  "servers": ["srv-db1", "srv-auth", "srv-cache", "srv-log", "srv-api"],
+  "severity_distribution": {
+    "id": "customfield_10042",
+    "Highest": 5,
+    "High": 10,
+    "Low": 30,
+    "Lowest": 55
+  },
+  "status_distribution": {
+    "id": "Status",
+    "To Do": 40,
+    "In Progress": 30,
+    "Done": 30
+  },
+  "priority_distribution": {
+    "id": "priority",
+    "Highest": 25,
+    "High": 25,
+    "Low": 25,
+    "Lowest": 25
+  }
+}
+

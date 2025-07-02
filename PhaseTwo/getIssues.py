@@ -18,7 +18,7 @@ def closeIssues():
 atexit.register(closeIssues)
 
 def count():
-    auth = HTTPBasicAuth("tomer.gal.netser@gmail.com", "ATATT3xFfGF0RNn7nze2AKpMLEmx_ub5wJRDnE2REwTXg8AFWBQRqvjqdoP4cseH_ufUMKynSceEK8bGD1feYdQN4zL93A5pQejprt7mIROvUTL-HCD8vszSawLtZVmZeUpfpaUPDLrezQ83gHVR1K3rHgZIIyMz_R3leZPkxHE0upaRFfVO75Y=87ADD768")
+    auth = HTTPBasicAuth("tomer.gal.netser@gmail.com", "ATATT3xFfGF0qVcfXlup2I_BDd92MhXWto0vz46OLquwrs37wq7hhjB_SYG27nP9vJ6-DwzDYw_wFRQqAiDM1IsBo55tmHJmgDVDVnaUkQUpB7I2BU0tQluY7CPf0uLhyaIIIupJCFE1jg2NBx9g3yXjKraFS3QGf-YyGmonSBGAS9hreOHR9D4=47D22949")
     headers = {"Accept": "application/json"}
 
     # Step 1: Search for all issue keys in the project
@@ -37,7 +37,7 @@ def updatePickle():
     # Connect to your Jira instance
     jira = JIRA(
         server="https://tomergngn.atlassian.net",
-        basic_auth=("tomer.gal.netser@gmail.com", "ATATT3xFfGF0RNn7nze2AKpMLEmx_ub5wJRDnE2REwTXg8AFWBQRqvjqdoP4cseH_ufUMKynSceEK8bGD1feYdQN4zL93A5pQejprt7mIROvUTL-HCD8vszSawLtZVmZeUpfpaUPDLrezQ83gHVR1K3rHgZIIyMz_R3leZPkxHE0upaRFfVO75Y=87ADD768")
+        basic_auth=("tomer.gal.netser@gmail.com", "ATATT3xFfGF0qVcfXlup2I_BDd92MhXWto0vz46OLquwrs37wq7hhjB_SYG27nP9vJ6-DwzDYw_wFRQqAiDM1IsBo55tmHJmgDVDVnaUkQUpB7I2BU0tQluY7CPf0uLhyaIIIupJCFE1jg2NBx9g3yXjKraFS3QGf-YyGmonSBGAS9hreOHR9D4=47D22949")
     )
 
     # Pagination setup

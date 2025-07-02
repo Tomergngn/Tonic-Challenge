@@ -21,7 +21,7 @@ def count_servers(issues):
         desc = issue['description']
         ind = 0
         while ind < len(desc):
-            if desc[ind:ind+4] == "srv-":
+            if desc[ind-1:ind+4] == " srv-":
                 found_server = False
                 for server in servers:
                     if server == desc[ind:ind+len(server)] and (len(desc) == ind + len(server) - 1 or desc[ind+len(server)] in end_word):

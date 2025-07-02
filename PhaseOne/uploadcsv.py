@@ -8,7 +8,7 @@ import createissuescsv
 # --- Configuration ---
 JIRA_URL = "https://tomergngn.atlassian.net"
 EMAIL = 'tomer.gal.netser@gmail.com'
-API_TOKEN = 'ATATT3xFfGF0RNn7nze2AKpMLEmx_ub5wJRDnE2REwTXg8AFWBQRqvjqdoP4cseH_ufUMKynSceEK8bGD1feYdQN4zL93A5pQejprt7mIROvUTL-HCD8vszSawLtZVmZeUpfpaUPDLrezQ83gHVR1K3rHgZIIyMz_R3leZPkxHE0upaRFfVO75Y=87ADD768'
+API_TOKEN = 'ATATT3xFfGF0qVcfXlup2I_BDd92MhXWto0vz46OLquwrs37wq7hhjB_SYG27nP9vJ6-DwzDYw_wFRQqAiDM1IsBo55tmHJmgDVDVnaUkQUpB7I2BU0tQluY7CPf0uLhyaIIIupJCFE1jg2NBx9g3yXjKraFS3QGf-YyGmonSBGAS9hreOHR9D4=47D22949'
 PROJECT_KEY = 'TDECP'
 # --- Connect to Jira ---
 jira = JIRA(
